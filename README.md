@@ -104,16 +104,16 @@
 
 ## **Code Structure:**
 
-    ->Logging.java - Creates log file for each peer and updates the file with new logs generated.
+    Logging.java - Creates log file for each peer and updates the file with new logs generated.
 
-    ->PeerInfoFileParser.java - Reads PeerInfo.cng file, pareses and stores the config parameters into class member variables.
+    PeerInfoFileParser.java - Reads PeerInfo.cng file, pareses and stores the config parameters into class member variables.
 
-    ->CommonConfigFileParser.java - Reads Common.cng file, pareses and stores the config parameters into class member variables.
+    CommonConfigFileParser.java - Reads Common.cng file, pareses and stores the config parameters into class member variables.
 
-    ->PeerProcess.java - Main entry to the program, which expectes peerId as a command line argument.
+    PeerProcess.java - Main entry to the program, which expectes peerId as a command line argument.
 
-    ->PeerMessagePassing.java - Handles message creation and passing of each type of messages between peers.
+    PeerMessagePassing.java - Handles message creation and passing of each type of messages between peers.
 
-    -> PeerFunctionsManager.java - Handles intialization, connection creation, choking, unchoking and termination of each peer. Also, handles creation of peer folder, read and write from the file.
+    PeerFunctionsManager.java - Handles intialization, connection creation, choking, unchoking and termination of each peer. Also, handles creation of peer folder, read and write from the file.
 
 #
